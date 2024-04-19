@@ -1,5 +1,5 @@
-<h2>Morgana</h2>
-<h3>Personal Project, 04/2020 - 06/2020</h3>
+<h3>Morgana</h3>
+<h4>Personal Project, 04/2020 - 06/2020</h4>
 
 <p>Purpose: Personal portfolio website that I made from scratch for my sister, who needs a website to showcase her graphic design projects.</p>
 
