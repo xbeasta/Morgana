@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0;}
+
+body {
+	font-family: paperdaisy;
+	font-size: 32px;
+}
+
+@font-face {
+	src: url(font/colorado.otf);
+	font-family: colorado;
+}
+
+@font-face {
+	src: url(font/mindset.ttf);
+	font-family: mindset;
+}
+
+@font-face {
+	src: url(font/guardians.ttf);
+	font-family: guardians;
+}
+
+@font-face {
+	src: url(font/jenna.ttf);
+	font-family: jenna;
+}
+
+@font-face {
+	src: url(font/paperdaisy.ttf);
+	font-family: paperdaisy;
+}
+
+.custom_background_color {
+	background: url(images/background2.png);
+}
+
+.custom_nav {
+	background-color: #cbdfde;
+	user-select: none;
+}
+
+.custom_images_property {
+	cursor: pointer;
+}
+
+.nav_morgana {
+	font-family: mindset;
+	font-size: 50px;
+	color: #000000;
+}
+
+.carousel_custom_spacing {
+	user-select: none;
+}
+
+.watercolor_h_a {
+	font-family: colorado;
+	font-size: 10rem;
+	text-decoration: none;
+	user-select: none;
+	background: url(images/watercolor_splash.jpg) 50% 50%;
+	background-size: cover;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.watercolor_h_a:hover {
+	font-family: colorado;
+	font-size: 10rem;
+	text-decoration: none;
+}
+
+.graphic_h_a {
+	font-family: guardians;
+	font-size: 4rem;
+	color: #404040;
+	text-decoration: none;
+	transition: color 0.2s;
+	user-select: none;
+}
+
+.graphic_h_a:hover {
+	font-family: guardians;
+	font-size: 4rem;
+	color: #000000;
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.contact_h {
+	font-family: jenna;
+	font-size: 4rem;
+}
+
+.footer_p {
+	color: #000000;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+
+.footer_credits {
+	font-family: paperdaisy;
+	color: #c2c2c2;
+	font-size: 20px;
+}
+
+.footer_copyright {
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #c2c2c2;
+}
+
+@media only screen and (max-width: 992px) {
+	.carousel_custom_spacing {
+		padding-top: 1rem;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.watercolor_h_a {
+		font-family: colorado;
+		font-size: 7rem;
+		color: #666;
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+
+	.watercolor_h_a:hover {
+		font-family: colorado;
+		font-size: 7rem;
+		color: #000000;
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+
+	.graphic_h_a {
+		font-family: guardians;
+		font-size: 3rem;
+	}
+
+	.graphic_h_a:hover {
+		font-family: guardians;
+		font-size: 3rem;
+	}
+}
